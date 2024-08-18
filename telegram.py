@@ -1,6 +1,6 @@
 
-TOKEN='7418771838:AAHpSqRyEnhIgJHBw6U-DHkUc_hMc6qO8rY'
-BOT_USERNAME='@benfirmware_bot'
+TOKEN='XXXXXX'
+BOT_USERNAME='XXXX'
 
 #I KNOW I LEFT MY API KEYS XD
 import requests
@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 bot= telebot.TeleBot(TOKEN)
 
-GOOGLE_API_KEY=('AIzaSyDBYLglFkiQgfzU_j-BKAO9WKCqjKZtglI')
+GOOGLE_API_KEY=('XXXX')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
